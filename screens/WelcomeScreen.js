@@ -44,6 +44,11 @@ export default class WelcomeScreen extends Component{
          email_id:this.state.emailId,
          address:this.state.address
        })
+            //  or you can write 
+      //  this.setState({
+      //   isModalVisible:false
+      // })
+      // return Alert.alert('User Added Successfully')
        return  Alert.alert(
             'User Added Successfully',
             '',
